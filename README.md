@@ -18,7 +18,7 @@ The Credit Score Calculator is a Java-based tool that estimates a user's credit 
 - New Credit Inquiries (10%) → Impact of recent hard inquiries
 
 - Credit Mix (10%) → Variety of credit types (loans, credit cards, etc.)
-- 
+  
 ✅ Returns a credit score range from 300 to 850
 
 ✅ Designed for future API and database integration
