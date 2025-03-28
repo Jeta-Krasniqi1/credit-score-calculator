@@ -30,21 +30,16 @@ Score = 300 + (pH × 0.35) + (cU × 0.30) + (cH × 0.15) + (nC × 0.10) + (cM ×
 
 Where:
 
-𝑝𝐻
-pH = Payment History Score (0-1000)
+𝑝𝐻 = Payment History Score (0-1000)
 
 
-c𝑈
-cU = Credit Utilization Score (0-1000)
+c𝑈 = Credit Utilization Score (0-1000)
 
-𝑐𝐻
-cH = Credit History Score (0-1000)
+𝑐𝐻 = Credit History Score (0-1000)
 
-𝑛𝐶
-nC = New Credit Inquiries Score (0-1000)
+𝑛𝐶 = New Credit Inquiries Score (0-1000)
 
-𝑐𝑀
-cM = Credit Mix Score (0-1000)
+𝑐𝑀 = Credit Mix Score (0-1000)
 
 ## 📂 Project Structure
 ```bash
