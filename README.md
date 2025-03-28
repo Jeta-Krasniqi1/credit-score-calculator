@@ -48,8 +48,6 @@ cM = Credit Mix Score (0-1000)
 
 ## 📂 Project Structure
 ```bash
-Copy
-Edit
 /CreditScoreCalculator
 │── src
 │   ├── CreditScoreCalculator.java  # Main class with credit score logic
