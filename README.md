@@ -1,5 +1,5 @@
 # Credit Score Calculator
-## 🚀 A simple yet effective credit score estimation tool using a simplified FICO-like formula.
+### 🚀 A simple yet effective credit score estimation tool using a simplified FICO-like formula.
 
 ## 📌 Overview
 The Credit Score Calculator is a Java-based tool that estimates a user's credit score based on key financial factors. It follows a weighted formula inspired by real-world credit scoring models.
@@ -24,24 +24,25 @@ The Credit Score Calculator is a Java-based tool that estimates a user's credit 
 📌 Formula Used
 The credit score is calculated as:
 
-Score=300+(pH×0.35)+(cU×0.30)+(cH×0.15)+(nC×0.10)+(cM×0.10)
+Score = 300 + (pH × 0.35) + (cU × 0.30) + (cH × 0.15) + (nC × 0.10) + (cM × 0.10)
 
 Where:
+
 𝑝𝐻
-pH = Payment History Score (0-100)
+pH = Payment History Score (0-1000)
 
 
 c𝑈
-cU = Credit Utilization Score (0-100)
+cU = Credit Utilization Score (0-1000)
 
 𝑐𝐻
-cH = Credit History Score (0-100)
+cH = Credit History Score (0-1000)
 
 𝑛𝐶
-nC = New Credit Inquiries Score (0-100)
+nC = New Credit Inquiries Score (0-1000)
 
 𝑐𝑀
-cM = Credit Mix Score (0-100)
+cM = Credit Mix Score (0-1000)
 
 ## 📂 Project Structure
 ```bash
@@ -61,6 +62,7 @@ Java 8+ installed
 A Java IDE (IntelliJ IDEA, VS Code, Eclipse)
 
 🔹 Running the Program
+
 Clone the repository:
 
 ```sh
@@ -87,8 +89,6 @@ java CreditScoreCalculator
 Here’s how the calculator works in action:
 
 ```java
-Copy
-Edit
 public static void main(String[] args) {
     int creditScore = calculateCreditScore(85, 70, 80, 50, 60);
     System.out.println("Calculated Credit Score: " + creditScore);
@@ -96,8 +96,6 @@ public static void main(String[] args) {
 ```
 📝 Output Example:
 ```yaml
-Copy
-Edit
 Calculated Credit Score: 710
 ```
 ## 🛠 Future Enhancements
