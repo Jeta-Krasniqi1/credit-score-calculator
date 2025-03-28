@@ -66,23 +66,17 @@ A Java IDE (IntelliJ IDEA, VS Code, Eclipse)
 Clone the repository:
 
 ```sh
-Copy
-Edit
 git clone https://github.com/your-username/CreditScoreCalculator.git
 cd CreditScoreCalculator
 ```
 Compile the Java program:
 
 ```sh
-Copy
-Edit
 javac CreditScoreCalculator.java
 ```
 Run the program:
 
 ```sh
-Copy
-Edit
 java CreditScoreCalculator
 ```
 ## 📌 Code Example
@@ -99,8 +93,11 @@ public static void main(String[] args) {
 Calculated Credit Score: 710
 ```
 ## 🛠 Future Enhancements
+
 📌 API Integration → Fetch real financial data via APIs
+
 📌 Database Storage → Store user credit scores for tracking
+
 📌 Web UI → Build a front-end for user interaction
 
 ## 📜 License
