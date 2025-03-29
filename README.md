@@ -13,7 +13,7 @@ The Credit Score Calculator is a Java-based tool that estimates a user's credit 
 
 - Credit Utilization (30%) → Percentage of credit limit used
 
-- Credit History Length (15%) → How long the user has had credit
+- Credit History Length (15%) → How long the user has had credit                   
 
 - New Credit Inquiries (10%) → Impact of recent hard inquiries
 
