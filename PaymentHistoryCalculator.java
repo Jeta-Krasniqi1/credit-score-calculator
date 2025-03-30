@@ -27,19 +27,4 @@ public class PaymentHistoryCalculator {
 
 	        return Math.max(finalScore, 0); // Ensure score doesn't go below 0
 	    }
-
-	    public static void main(String[] args) {
-	        // Example input
-	        int totalPayments = 0;
-	        int onTimePayments = 0;
-	        int overduePayments = 0;
-	        double delinquentDebt = 0; // $500 in delinquent accounts
-	        boolean hasBankruptcy = false;
-	        int yearsSinceDelinquency = 0;
-
-	        // Calculate Payment History Score
-	        double paymentHistoryScore = calculatePaymentHistory(totalPayments, onTimePayments, overduePayments, delinquentDebt, hasBankruptcy, yearsSinceDelinquency);
-	        System.out.println("Payment History Score: " + paymentHistoryScore);
-	    }
-
 }
