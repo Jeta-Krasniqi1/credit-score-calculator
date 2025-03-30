@@ -28,13 +28,4 @@ public class CreditUtilizationCalculator {
 
         return Math.max(0, Math.min(score, MAX_SCORE)); // Ensure score is between 0 and 100
     }
-
-    public static void main(String[] args) {
-        // Example test cases
-        double totalCreditUsed = 0;
-        double totalCreditLimit = 5000;
-
-        double utilizationScore = calculateCreditUtilization(totalCreditUsed, totalCreditLimit);
-        System.out.println("Credit Utilization Score: " + utilizationScore);
-    }
 }
