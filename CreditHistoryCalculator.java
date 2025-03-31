@@ -1,4 +1,4 @@
-import java.util.List;
+import java.util.List; 
 
 public class CreditHistoryCalculator {
     private static final int MAX_SCORE = 100;
