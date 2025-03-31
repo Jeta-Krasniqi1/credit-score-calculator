@@ -1,6 +1,6 @@
 public class CreditScoreCalculator {
     /** My credit score calculator method estimates the credit score of the user using a  simplified version of the fico formula.
-     *it takes as input the 
+     *it takes as input the    
      *-paymentHistory (If the user has missed payments)
      *-creditUtilization (How much credit they are using vs. total available credit)
      *-creditHistory (How long the user has had credit) 
