@@ -5,7 +5,7 @@ public class PaymentHistoryCalculator {
 	                                                 double delinquentDebt, boolean hasBankruptcy, int yearsSinceDelinquency) {
 	        if (totalPayments <= 0){ 
 	          return 1; } // Avoid division by zero
-
+               
 	        // 1. On-time Payment Ratio (weighted heavily)
 	        double paymentRatio = (double) onTimePayments / totalPayments;
 	        double paymentScore = paymentRatio * 70; // On-time payments contribute up to 70% of the score
