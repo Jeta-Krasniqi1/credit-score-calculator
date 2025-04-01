@@ -37,6 +37,6 @@ public class PaymentHistoryCalculator {
 	        // Final Score Calculation
 	        double finalScore = paymentScore - overduePenalty - debtPenalty - bankruptcyPenalty + delinquencyRecovery;
 
-	        return Math.max(finalScore, 0); // Ensure score doesn't go below 0
+	        return Math.min(MAX_SCORE , Math.max(finalScore, 0)); // Ensure score doesn't go below 0
 	    }
 }
