@@ -23,10 +23,9 @@ The Credit Score Calculator is a Java-based tool that estimates a user's credit 
 
 ✅ Designed for future API and database integration
 
-📌 Formula Used
-The credit score is calculated as:
+📌 Formula Used: 
 
-Score = 300 + (pH × 0.35) + (cU × 0.30) + (cH × 0.15) + (nC × 0.10) + (cM × 0.10)
+-> Score = 300 + (pH × 0.35) + (cU × 0.30) + (cH × 0.15) + (nC × 0.10) + (cM × 0.10)
 
 Where:
 
