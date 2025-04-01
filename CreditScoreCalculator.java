@@ -11,7 +11,7 @@ public class CreditScoreCalculator {
         int baseScore = 300;
         /** the formula to calculate the score */
         int finalScore = baseScore 
-            + (int) (paymentHistory * 0.35) 
+            + (int) (paymentHistory * 0.35)                
             + (int) (creditUtilization * 0.30) 
             + (int) (creditHistory * 0.15) 
             + (int) (newCredit * 0.10) 
