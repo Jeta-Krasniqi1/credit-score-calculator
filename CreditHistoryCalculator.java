@@ -1,5 +1,5 @@
 import java.util.List; 
-
+           
 public class CreditHistoryCalculator {
     private static final int MAX_SCORE = 100;
     private static final int MAX_CREDIT_AGE = 25; // Maximum age for full score
