@@ -1,5 +1,5 @@
 public class PaymentHistoryCalculator {
-	 private static final int MAX_SCORE = 100;
+	 private static final int MAX_SCORE = 100;                
 
 	    public static double calculatePaymentHistory(int totalPayments, int onTimePayments, int overduePayments, 
 	                                                 double delinquentDebt, boolean hasBankruptcy, int yearsSinceDelinquency) {
