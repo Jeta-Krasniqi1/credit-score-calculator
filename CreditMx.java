@@ -1,6 +1,6 @@
 import java.util.*;
 public class CreditMx {
-	/**
+	/**           
 	 * Calculates a credit mix score based on the diversity of credit types.
 	 * 
 	 * @param creditTypes An array of strings representing the different credit types the person has
