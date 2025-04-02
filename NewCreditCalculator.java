@@ -9,7 +9,7 @@ public class NewCreditCalculator {
         } else if (hardInquiries == 2) {
             return 75;
         } else if (hardInquiries == 3) {              
-            return 55;
+            return 55;           
         } else if (hardInquiries == 4) {
             return 30;
         } else {
