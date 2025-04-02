@@ -8,7 +8,7 @@ public class CreditUtilizationCalculator {
         }
 
         // Calculate credit utilization percentage            
-        double utilizationRatio = (totalCreditUsed / totalCreditLimit) * 100;
+        double utilizationRatio = (totalCreditUsed / totalCreditLimit) * 100;          
 
         // Scoring logic
         double score;
