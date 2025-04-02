@@ -8,7 +8,7 @@ public class CreditHistoryCalculator {
         if (accountAges == null || accountAges.isEmpty()) {
             return 1; // No credit history, return the lowest non-zero score.
         }
-
+       
         // Find the oldest account age
         int oldestAccountAge = accountAges.stream().mapToInt(Integer::intValue).max().orElse(0);
         
