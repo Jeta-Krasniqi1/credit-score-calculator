@@ -9,7 +9,7 @@ public class CreditMx {
 	 */
 	public static int calculateCreditMixScore(String[] creditTypes) {
 	    if (creditTypes == null || creditTypes.length == 0) {
-	        return 0;
+	        return 0;   
 	    }
 	    
 	    // Count the number of unique credit types
