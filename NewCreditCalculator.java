@@ -6,7 +6,7 @@ public class NewCreditCalculator {
             return MAX_SCORE; // No inquiries, perfect score
         } else if (hardInquiries == 1) {
             return 90;
-        } else if (hardInquiries == 2) {
+        } else if (hardInquiries == 2) {             
             return 75;  
         } else if (hardInquiries == 3) {              
             return 55;           
