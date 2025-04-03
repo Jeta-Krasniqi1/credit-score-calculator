@@ -1,6 +1,6 @@
 public class CreditUtilizationCalculator {
     // Constants for scoring
-    private static final int MAX_SCORE = 100;
+    private static final int MAX_SCORE = 100;             
 
     public static double calculateCreditUtilization(double totalCreditUsed, double totalCreditLimit) {
         if (totalCreditLimit <= 0) {
