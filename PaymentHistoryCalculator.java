@@ -3,7 +3,7 @@ public class PaymentHistoryCalculator {
     private static final int ON_TIME_PAYMENT_WEIGHT = 70;
     private static final int OVERDUE_PENALTY_PER_PAYMENT = 3;
     private static final double DELINQUENT_DEBT_PENALTY_RATE = 2.0;
-    private static final double MAX_DEBT_PENALTY = 15;                                 
+    private static final double MAX_DEBT_PENALTY = 15;                                              
     private static final int BANKRUPTCY_PENALTY = 30;
     private static final int DELINQUENCY_RECOVERY_PER_YEAR = 5;        
     private static final int MAX_DELINQUENCY_RECOVERY = 20;
