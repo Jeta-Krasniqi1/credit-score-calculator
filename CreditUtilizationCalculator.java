@@ -3,7 +3,7 @@ public class CreditUtilizationCalculator {
     private static final int MAX_SCORE = 100;             
 
     public static double calculateCreditUtilization(double totalCreditUsed, double totalCreditLimit) {
-        if (totalCreditLimit <= 0) {
+        if (totalCreditLimit <= 0) {    
             return 1; // If no credit limit exists, return the lowest score.                   
         }
 
