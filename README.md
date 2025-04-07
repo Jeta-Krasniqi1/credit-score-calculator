@@ -4,7 +4,7 @@
 ## 📌 Overview                              
 The Credit Score Calculator is a Java-based tool that estimates a user's credit score based on key financial factors. It follows a weighted formula inspired by real-world credit scoring models.
                           
-## 🛠 Features
+## 🛠 Features             
 ✅ Uses a simplified FICO-like formula to estimate credit scores
 
 ✅ Accepts five key financial inputs:
