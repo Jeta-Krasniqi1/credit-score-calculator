@@ -2,7 +2,7 @@ import java.util.*;
 public class CreditMx {
 	/**           
 	 * Calculates a credit mix score based on the diversity of credit types.
-	 * 
+	 *      
 	 * @param creditTypes An array of strings representing the different credit types the person has
 	 *                   (e.g., "mortgage", "auto_loan", "credit_card", "personal_loan", "student_loan")
 	 * @return A credit mix score between 0 (poor diversity) and 100 (excellent diversity)         
