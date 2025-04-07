@@ -9,7 +9,7 @@ public class CreditScoreCalculator {
     public static int calculateCreditScore(int paymentHistory, int creditUtilization, int creditHistory, int newCredit, int creditMix) {
     	/** The credit score start from 300 up to 850 */
         int baseScore = 300;
-        /** the formula to calculate the score */
+        /** the formula to calculate the score */    
         int finalScore = baseScore 
             + (int) (paymentHistory * 0.35)                
             + (int) (creditUtilization * 0.30)     
