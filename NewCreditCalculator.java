@@ -10,7 +10,7 @@ public class NewCreditCalculator {
             return 75;  
         } else if (hardInquiries == 3) {              
             return 55;           
-        } else if (hardInquiries == 4) {
+        } else if (hardInquiries == 4) {   
             return 30;
         } else {
             return 10; // 5 or more inquiries = worst score
