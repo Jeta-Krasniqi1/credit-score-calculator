@@ -1,5 +1,5 @@
 import java.util.*;
-public class CreditMx {
+public class CreditMx {     
 	/**           
 	 * Calculates a credit mix score based on the diversity of credit types.
 	 *      
