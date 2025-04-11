@@ -1,4 +1,4 @@
-# Credit Score Calculator                                                                                                                               
+# Credit Score Calculator                                                                                                                                         
 ### 🚀 A simple yet effective credit score estimation tool using a simplified FICO-like formula.                  
                                                 
 ## 📌 Overview                              
