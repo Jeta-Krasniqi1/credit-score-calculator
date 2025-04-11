@@ -5,7 +5,7 @@ public class CreditHistoryCalculator {
     private static final int MAX_CREDIT_AGE = 25; // Maximum age for full score  
 
     public static double calculateCreditHistory(List<Integer> accountAges) {    
-        if (accountAges == null || accountAges.isEmpty()) {      
+        if (accountAges == null || accountAges.isEmpty()) {         
             return 1; // No credit history, return the lowest non-zero score.
         }
        
