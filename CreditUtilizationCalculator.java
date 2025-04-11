@@ -5,7 +5,7 @@ public class CreditUtilizationCalculator {
     public static double calculateCreditUtilization(double totalCreditUsed, double totalCreditLimit) {
         if (totalCreditLimit <= 0) {    
             return 1; // If no credit limit exists, return the lowest score.                   
-        }
+        }               
 
         // Calculate credit utilization percentage                 
         double utilizationRatio = (totalCreditUsed / totalCreditLimit) * 100;          
