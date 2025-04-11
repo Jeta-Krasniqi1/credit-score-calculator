@@ -7,7 +7,7 @@ public class CreditMx {
 	 *                   (e.g., "mortgage", "auto_loan", "credit_card", "personal_loan", "student_loan")
 	 * @return A credit mix score between 0 (poor diversity) and 100 (excellent diversity)         
 	 */
-	public static int calculateCreditMixScore(String[] creditTypes) {
+	public static int calculateCreditMixScore(String[] creditTypes) {         
 	    if (creditTypes == null || creditTypes.length == 0) {
 	        return 0;   
 	    }
